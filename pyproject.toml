@@ -1,10 +1,11 @@
 [project]
 name = "lastwar-bot"
 version = "0.1.0"
-description = "Add your description here"
+description = "Discord bot for managing Last War Survival alliance registrations"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "discord.py>=2.5.2",
     "pycountry>=26.2.16",
     "tzdata>=2025.3",
 ]
